@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Registration Form</title>
+        <link rel="stylesheet" href="validationStyle.css">
+    </head>
+    <body>
+        <!--Heading of the form-->
+        <header>
+            <h1>Registartion Form</h1>
+        </header>
+         
+        <!--<form action="https://submit.my.form" method="POST">
+            <h4>Our Basic Form</h4>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="user_name" required>
+            <label for="mail">Email:</label>
+            <input type="mail" id="mail" name="user_mail">
+            <label for="msg">Message:</label>
+            <textarea name="user_message" id="msg"></textarea>
+            <input type="submit">
+          </form>-->
+
+        <!--Start of the Form-->
+        <form target="_blank" action="" method="POST">
+            <label for="User_id">User id:</label>
+            <input type="text" name="User_id" placeholder="Enter your User id here" required>
+            <br><br>
+            <label for="password">Password:</label>
+            <input type="password" name="password" placeholder="Enter your password" required>
+            <br><br>
+            <label for="name">Name:</label>
+            <input type="text" name="name" placeholder="Enter your name here" required>
+            <br><br>
+            <label for="Address">Address:</label>
+            <input type="text" name="Address" placeholder="Address (Optional)" optional>
+            <br><br>
+            <label for="Country">Country:</label>
+            <select name="Country" name="Country" required>
+                <option value="south africa">South Africa</option>
+                <option value="usa">USA</option>
+                <option value="argentina">Argentina</option>
+                <option value="france">France</option>
+                <option value="spain">Spain</option>
+            </select>
+            <br><br>
+            <label for="zip_code">ZIP Code:</label>
+            <input type="number" name="zip_code" placeholder="numeric only" required>
+            <br><br>
+            <label for="emails">Email:</label>
+            <input type="email" name="emails" placeholder="Enter your email address" required>
+            <br><br>
+            <label name="sex">Sex:</label>
+            <label for="male">Male</label>
+            <input type="radio" name="sex" value="Male" required>
+            <label type="female">Female</label>
+            <input type="radio" name="sex" value="Female" required>
+            <br><br>
+            <label for="language">Language</label>
+            <input type="checkbox" name="language" value="language">
+            <label for="english">English</label>
+            <input type="checkbox" name="language" value="language">
+            <label for="non_english">Non-English</label>
+            <br><br>
+            <label for="about">About:</label>
+            <textarea name="=about" cols="50" rows="10"></textarea>
+            <br><br>
+            <button type="submit">Submit</button>
+    </body>
+</html>
